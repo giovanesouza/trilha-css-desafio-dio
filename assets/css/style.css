@@ -214,3 +214,24 @@ main #professional-challenges {
     line-height: 1.878rem;
     margin: 0 auto;
 }
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.878rem;
+    padding: 4rem 0;
+}
+
+footer img {
+    width: 31rem;
+    height: 4.4rem;
+}
+
+footer p a {
+    display: inline-block;
+    color: #33A8DB;
+    font-weight: 700;
+    margin-top: .5rem;
+}
