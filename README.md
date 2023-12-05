@@ -10,3 +10,13 @@
  [Link Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6)
 
  ![Template](./assets/images/screenpicture/template.png "template")
+ 
+ 
+ ## Resultado obtido
+
+ ### Desktop
+ ![resultado obtido: desktop](./assets/images/screenpicture/my-version-desktop.jpg "resultado obtido: desktop")
+ 
+
+ ### Mobile
+ ![resultado obtido: mobile](./assets/images/screenpicture/my-version-mobile.jpg "resultado obtido: mobile")
