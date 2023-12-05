@@ -155,3 +155,30 @@ main #course-content p {
 .module-list .module span {
     color: #33A8DB;
 }
+
+main #transform-world {
+    width: 100%;
+    height: 36.3rem;
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*Permite criar o efeito paralax*/
+
+    border: .1rem solid #33A8DB;
+
+    position: relative;
+}
+
+main #transform-world p {
+    width: 24.4rem;
+    height: 14.1rem;
+    font-size: 4rem;
+    text-shadow: .3rem .2rem 0 #33A8DB;
+    font-weight: 900;
+    line-height: 4.696rem;
+
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+
+}
