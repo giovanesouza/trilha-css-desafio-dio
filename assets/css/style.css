@@ -156,14 +156,15 @@ main #course-content p {
     color: #33A8DB;
 }
 
+/* Seção 2 */
 main #transform-world {
     width: 100%;
     height: 36.3rem;
     background-image: url("../images/woman-code.png");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     /*Permite criar o efeito paralax*/
+    background-attachment: fixed;
 
     border: .1rem solid #33A8DB;
 
@@ -184,6 +185,7 @@ main #transform-world p {
 }
 
 
+/* Seção 3 */
 main #professional-challenges {
     text-align: center;
     padding: 8rem 0;
@@ -234,4 +236,108 @@ footer p a {
     color: #33A8DB;
     font-weight: 700;
     margin-top: .5rem;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 810px) {
+    html {
+        font-size: 58%;
+    }
+
+
+    /* HEADER Banner */
+    .banner {
+        height: 100vh;
+        padding: 0 2rem;
+    }
+
+    .banner-content .logo {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .banner-content .logo img {
+        width: 85%;
+    }
+
+    .banner-content h1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-content p {
+        height: auto;
+    }
+
+
+    /* MAIN */
+    /* Seção 1 */
+    main #course-content {
+        width: 100%;
+        padding: 10rem 2rem;
+    }
+
+    main #course-content h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .module-list .module {
+        padding: 1.6rem;
+    }
+
+
+    /* Seção 2 */
+    main #transform-world {
+        height: 80vh;
+    }
+
+
+    /* Seção 3 */
+    main #professional-challenges {
+        width: 100%;
+        padding: 6rem 2rem;
+    }
+
+    #professional-challenges h2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #professional-challenges img {
+        width: 85%;
+        /* max-height: 42.9rem;
+        margin: 2rem 0; */
+    }
+
+    #professional-challenges p {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 426px) {
+    html {
+        font-size: 55%;
+    }
+
+    /* Seção 2 */
+    main #transform-world p {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 2rem;
+    }
+
+    footer img {
+        width: 25rem;
+    }
+
 }
