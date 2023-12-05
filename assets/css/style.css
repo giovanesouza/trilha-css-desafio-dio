@@ -219,10 +219,12 @@ main #professional-challenges {
 
 /* Footer */
 footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2));
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.878rem;
+    border-top: .1rem solid #33A8DB;
     padding: 4rem 0;
 }
 
