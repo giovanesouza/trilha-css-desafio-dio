@@ -14,7 +14,95 @@ html {
 }
 
 body {
+    max-width: 100vw;
     background-color: #000;
     color: #fff;
     font-size: 1.6rem;
+}
+
+/* HEADER Banner */
+.banner {
+    height: 60.5rem;
+    /* Seta uma imagem no bg com duas cores de fundo com transparência  */
+    background-image: url("../images/banner.png"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6));
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: .1rem solid #33A8DB;
+}
+
+.banner-content {
+    width: 60rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-content .logo {
+    width: 26.8rem;
+    height: 26.8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.banner-content .logo img {
+    max-width: 24.8rem;
+    max-height: 21.4rem;
+}
+
+.banner-content h1 {
+    width: 43.4rem;
+    height: 4.7rem;
+    font-size: 4rem;
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    line-height: 4.696rem;
+    font-weight: 900;
+
+    /* Define um degradê como fundo */
+    background-image: linear-gradient(#33A8DB, #1472B7);
+
+    /* Apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Alguns navegadores precisam do prefixo */
+
+    /* Apaga o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: #000;
+
+    margin: 1rem auto;
+
+}
+
+.banner-content p {
+    width: 100%;
+    height: 4.6rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.348rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #31A8DD;
+    font-size: 1.6rem;
+    line-height: 1.878rem;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border: .2rem solid;
+
+    padding: 1.9rem 9.1rem;
+    margin: 2rem 0;
 }
